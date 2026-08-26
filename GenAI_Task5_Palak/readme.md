@@ -1,14 +1,4 @@
 # Assignment 5: Importing, Creating modules and packages
-Note: All the tasks are there in Assignment5.ipynb
-
-## Basic instuctions to run the code
-Python notebook contains following type of cells
-1. markdown cells for task heading
-2. code cells for the task logic
-
-You can open the task folder in JupyterLab or VS code
-1. Complete notebook can be executed in 1 shot using Run All option in the Jupyter Notebook
-2. You can execute each cell 1 by using play button against it
 
 ## Task 1: Create a Simple Module (math_utils.py)
 path - GenAI-Task5-Palak>modules_assignment>math_utils.py
