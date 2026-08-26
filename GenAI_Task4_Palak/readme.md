@@ -8,7 +8,7 @@ Python notebook contains following type of cells
 
 You can open the task folder in JupyterLab or VS code
 1. Complete notebook can be executed in 1 shot using Run All option in the Jupyter Notebook
-2. You can execute each cell 1 by using play button against it
+2. You can execute each cell by using play button against it
 
 ## Task 1
 Cell 3 contains task 1
