@@ -52,6 +52,11 @@ Cell 7 demonstrates the following code
 - PermissionError
 4. If successful, print first 3 lines of the file
 5. Use finally to print - 'File operation attempted'
+### Code Execution
+Cell 9 demonstrates the above code
+Keep one file in the parent folder to verify FileNotFoundError
+Enter filename that do not exist- it will show FileNotFoundError
+Permission Error will occur if file permissions are not available for the logged in user
 
 ## Task 5: Mini Program: Safe Shopping Cart
 Create a program
@@ -59,9 +64,19 @@ Create a program
 2. Runs a loop asking user to enter prices
 3. stops when user enters 'q'
 4. Inside the loop:
-- Convert unpirt to a float
+- Convert input to a float
 - Handle ValueError if user enters invalid input
 - Raise custom exception if price is negative
-5. At it end print:
+5. At the end print:
 - Total items
 - Total bill
+### Code Execution
+Cell 11 demonstrates the above code
+cart list is defined
+looping through the cart using while loop
+breaking the loop at input 'q' or 'Q
+converting price to float
+if price is negative raising custom exception
+User input will be taken for price of each item in the cart, unless items finishes or user quits
+
+
