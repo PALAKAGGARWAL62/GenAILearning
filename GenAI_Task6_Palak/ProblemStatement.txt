@@ -1,0 +1,164 @@
+
+
+Assignment 6: Exception Handling
+
+
+Problem Statement
+
+You are working as a Python Developer in a small retail company. Your task is to build simple and safe programs that handle unexpected user inputs, invalid operations, and runtime errors using Python’s exception handling system.
+
+
+This assignment covers:
+
+try, except
+Multiple except blocks
+else
+finally
+Raising custom exceptions (raise)
+Handling common built-in exceptions: ValueError, ZeroDivisionError, TypeError,
+FileNotFoundError
+Keep the logic simple and strictly within the topic.
+
+
+(Solve each task separately)
+
+
+Restrictions:
+
+Do NOT use classes, modules, OOP, or file handling.
+Focus only on practising exception handling.
+Keep inputs simple and readable.
+
+
+Task 1: Safe Division Utility
+
+Write a program that:
+
+1. Takes two inputs from the user: numerator and denominator.
+
+2. Uses try-except to handle:
+
+o ValueError (if input is not a number)
+
+o ZeroDivisionError (if denominator = 0)
+
+3. If no error occurs, print the result inside the else block.
+
+4. In the finally block, print:
+
+"Operation Complete"
+
+
+
+
+
+
+
+
+
+
+
+
+
+Task 2: Bill Calculator with Error Handling
+
+Given a list of product prices:
+
+prices = [120, 350, 'abc', 500, -200, 800]
+
+Write code that:
+
+1. Iterates through the list.
+
+2. Tries to add only valid (positive numerical) prices to the total.
+
+3. Handles:
+
+o TypeError if value is not a number
+
+o Custom exception using raise ValueError("Negative price not allowed")
+
+4. Prints the running total.
+
+Expected behavior:
+
+Skip invalid items but continue processing.
+
+
+Task 3: Custom Exception: Age Validator
+
+1. Write a function check_age(age) that:
+
+o Raises a custom exception ValueError("Age must be between 1 and 120") if
+
+age is out of range.
+
+2. In your main code:
+
+o Take age input from the user.
+
+o Use try-except to catch and print the custom error message.
+
+
+Task 4: File Reader with Exception Handling
+
+1. Ask the user for a filename.
+
+2. Try to open and read the file.
+
+3. Handle:
+
+o FileNotFoundError
+
+o PermissionError
+
+4. If successful, print first 3 lines of the file.
+
+5. Use finally to print:
+
+"File operation attempted."
+
+
+Task 5: Mini Program: Safe Shopping Cart
+
+Create a program that:
+
+1. Has a cart list → cart = []
+
+2. Runs a loop asking user to enter prices.
+
+3. Stops when user enters 'q'.
+
+4. Inside the loop:
+
+o Convert input to a float
+
+o Handle ValueError if user enters invalid input
+
+o Raise custom exception if price is negative
+
+5. At the end, print:
+
+o Total items
+
+o Total bill
+
+
+
+
+
+Submission Guidelines:-
+
+Don’t use AI
+Create ONE main folder.
+Example folder name: GenAI-Task(number)-YourName
+Inside this folder include:
+(All code files and Readme.md file must be inserted inside this folder)
+Convert the folder into ZIP format.
+Upload the ZIP folder on the submission portal.
+
+
+
+
+If you have any doubt, you can directly contact the Tutedude mentor.
+

@@ -1,0 +1,128 @@
+Assignment 1: Python - Data Structures
+
+
+Problem Statement
+
+You are a Junior Python Developer at a small e-commerce store. The store wants a simple
+
+inventory utility to manage products and categories, run small queries, and export a
+
+snapshot of selected products. Your code should demonstrate correct use of Python data
+
+structures: lists, tuples, sets, and dictionaries.
+
+
+
+Important: Please keep solutions simple, readable, and strictly limited to concepts taught in this topic. Do not use other advanced libraries or topics.
+
+
+
+(Solve each task in a separate Python file or separate clearly labelled code cells)
+
+
+Restrictions:
+
+Do not use libraries outside standard Python (no pandas/numpy, etc.) for this topic.
+Keep solutions short and focused.
+You may include short comments to explain your logic, but avoid long essays inside
+Code.
+
+
+
+
+Task 1: Product Collections (Lists & Tuples)
+
+1. Create a list named products containing at least 6 product names (strings).
+
+2. Create a tuple named sample_product that stores (product_name, price, category)
+
+for one product.
+
+3. Print the 2nd and last product from the products list.
+
+4. Append two new product names to products and then print the updated list.
+
+Extra (optional): Convert sample_product into a list, change its price, and convert it back to
+
+a tuple.
+
+
+Task 2: Categories (Sets)
+
+1. From your products list, create a set of categories called categories_set. (If product
+
+names do not contain categories, create a short parallel list categories = [..] with
+
+matching length and use that.)
+
+2. Demonstrate adding a new category to the set and show that duplicates are ignored.
+
+3. Show how to check whether a category exists in the set (print a boolean result).
+
+Extra (optional): Show how to get the total number of unique categories using a set.
+
+
+
+
+
+
+
+
+Task 3: Product Pricing (Dictionaries)
+
+1. Create a dictionary price_dict where keys are product names and values are prices
+
+(integers or floats). Include at least 6 entries.
+
+2. Write small code blocks to:
+
+Add a new product with price to price_dict.
+
+Update the price of an existing product.
+Remove a product by name (handle the case when the product does not exist).
+3. Print the average price of all products (use only dictionary operations and basic
+
+arithmetic).
+
+Extra (optional): Print the product with both the maximum and minimum prices.
+
+
+
+Task 4: Combined Operations
+
+1. Using the products list and price_dict, create a list of tuples named catalog where
+
+each tuple is (product_name, price, category).
+
+2. From catalog, create a new dictionary category_to_products that maps each category
+
+to a list of product names in that category.
+
+3. Print all products that belong to the category that has the maximum number of
+
+Products.
+
+
+Submission Instructions:
+
+
+Don’t use AI
+Create ONE main folder.
+Example folder name: GenAI-Task(number)-YourName
+Inside this folder include:
+(All code files and Readme.md file must be inserted inside this folder)
+Convert the folder into ZIP format.
+Upload the ZIP folder on the submission portal.
+
+
+Evaluation Criteria:
+
+Correct use of lists, tuples, sets, and dictionaries
+Code correctness and edge-case handling
+Code readability and comments
+
+
+
+If you have any doubt, you can directly contact the Tutedude mentor.
+
+

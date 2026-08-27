@@ -1,0 +1,162 @@
+
+Assignment 5: Importing, Creating Modules & Packages
+
+
+Problem Statement
+
+You are working as a Python Developer for a small utility tools team. The company wants to
+
+organize code into modules and packages to make the project reusable and scalable. Your
+
+task is to create simple modules, import them, and organize them into a package.
+
+
+This assignment focuses ONLY on:
+
+Creating Python modules (.py files)
+Importing modules
+Creating packages using __init__.py
+Using from module import function and import module
+Keeping the assignment simple and beginner-friendly
+No OOP, no file handling (beyond the required .py creation), no exceptions.
+
+
+
+(Complete all tasks in a structured folder)
+
+Your final folder structure should look like:
+
+modules_assignment/
+
+main.py
+
+Math_utils.py
+
+string_utils.py
+
+shop_package/
+
+__init__.py
+
+discount.py
+
+billing.py
+
+
+Restrictions:
+
+Do NOT use OOP, exceptions, or file I/O beyond creating .py files.
+Keep function logic simple.
+Focus is on understanding modules & packages ONLY.
+
+
+Task 1: Create a Simple Module (math_utils.py)
+
+Create a module math_utils.py with the following functions:
+
+1. add(a, b) → returns a + b
+
+2. subtract(a, b) → returns a - b
+
+3. square(n) → returns n²
+
+In main.py, import this module in two different ways:
+
+import math_utils
+from math_utils import square
+Test all functions.
+
+
+
+
+
+Task 2:  Create Another Module (string_utils.py)
+
+Create a module string_utils.py with:
+
+1. capitalize_words(text) → returns text with each word capitalized
+
+2. reverse_string(text) → returns reversed string
+
+3. word_count(text) → returns number of words in the text
+
+Import this module in main.py and test all functions.
+
+
+Task 3:  Create a Simple Package (shop_package)
+
+Inside folder shop_package/, create:
+
+
+discount.py
+
+Functions:
+
+1. apply_discount(price, percent) → returns discounted price
+
+2. flat_discount(price) → always subtracts 50 from price
+
+
+billing.py
+
+Functions:
+
+1. calculate_total(prices) → returns total bill (sum of all prices)
+
+2. apply_tax(amount) → adds 5% tax
+
+
+__init__.py
+
+Leave it empty OR add:
+
+from .discount import apply_discount, flat_discount
+
+from .billing import calculate_total, apply_tax
+
+(This allows calling functions directly from the package)
+
+
+
+Task 4: Importing the Package in main.py
+
+In main.py, do the following:
+
+1. import shop_package.discount as disc
+
+2. from shop_package.billing import calculate_total
+
+3. Call every function inside the package.
+
+Example usage:
+
+print(disc.apply_discount(1000, 10))
+
+print(calculate_total([100, 200, 300]))
+
+
+
+
+
+
+
+
+
+
+
+Submission Guidelines:-
+
+Don’t use AI
+Create ONE main folder.
+Example folder name: GenAI-Task(number)-YourName
+Inside this folder include:
+(All code files and Readme.md file must be inserted inside this folder)
+Convert the folder into ZIP format.
+Upload the ZIP folder on the submission portal.
+
+
+
+
+If you have any doubt, you can directly contact the Tutedude mentor.
+
+

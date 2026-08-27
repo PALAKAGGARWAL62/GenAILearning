@@ -1,0 +1,180 @@
+
+
+Assignment 3: Functions (User-Defined, Recursive, Lambda, Map, Filter)
+
+
+Problem Statement
+
+You are working as a trainee Python Developer in an online billing and utility automation
+
+team. The goal of this assignment is to build small reusable functions to automate basic
+
+tasks such as calculations, filtering products, and generating summaries. The focus is strictly
+
+on Python functions and their variations.
+
+
+Topics included:
+
+User-defined functions
+Recursive functions
+Lambda functions
+map()
+filter()
+Default arguments (light use)
+No advanced concepts beyond the scope
+
+(Solve each task in a separate cell/file with clear labelling)
+
+
+Restrictions:
+
+Avoid using classes, packages, exceptions, or file handling here; those belong to later topics.
+Keep code simple and readable.
+
+Task 1 - Basic Function: Price After Discount
+
+Write a function apply_discount(price, discount_percent) that:
+
+1. Returns the price after discount.
+
+2. If discount_percent is missing, apply a default discount of 5%.
+
+3. Test the function with:
+
+4. apply_discount(1000, 10)
+
+5. apply_discount(500) # uses default discount
+
+Extra (optional): Add a condition inside the function to ensure discount never exceeds 60%.
+
+
+Task 2 - Recursive Function: Factorial Utility
+
+Create a recursive function factorial(n) that:
+
+1. Returns the factorial of n.
+
+2. Handles two edge cases: n == 0 and n == 1.
+
+3. Prints an error message if n is negative.
+
+Test with:
+
+factorial(5)
+
+factorial(0)
+
+factorial(-3)
+
+
+
+
+
+Task 3 -  Lambda Function: GST Calculator
+
+Create a lambda function gst that returns price after adding 18% GST.
+
+Example:
+
+gst = lambda price: price + (0.18 * price)
+
+print(gst(100)) # should return 118
+
+Extra (optional): Create another lambda to compute final price after GST + discount
+
+together.
+
+
+Task 4 -  Using map(): Apply GST to List of Prices
+
+Given:
+
+prices = [100, 250, 400, 1200, 50]
+
+Use map() with your gst lambda to generate a new list prices_with_gst.
+
+Print both lists:
+
+Original prices
+
+Prices after GST
+
+
+Task 5 -  Using filter(): Filter Expensive Products
+
+Given the list:
+
+prices = [100, 250, 400, 1200, 50, 2000, 850]
+
+Use filter() to:
+
+1. Create a list of prices greater than 500.
+
+2. Create another list of prices less than or equal to 500.
+
+Print both lists.
+
+
+Task 6 - Combined Utility Function
+
+Write a function process_prices(prices) that:
+
+1. Takes a list of prices.
+
+2. Uses map() + lambda to apply 10% discount to all prices.
+
+3. Uses filter() to keep only discounted prices that are above 300.
+
+4. Returns both lists:
+
+o discounted_prices
+
+o filtered_prices
+
+Test with:
+
+process_prices([100, 500, 900, 50, 750])
+
+
+Task 7 -  Mini Problem: Menu Using Functions
+
+Create the following three small functions:
+
+1. add_price(prices_list, price) → adds price to the list.
+
+2. get_average_price(prices_list) → returns average price.
+
+3. get_max_price(prices_list) → returns the maximum price.
+
+Then create a simple menu:
+
+1 → Add price
+
+2 → Show average price
+
+3 → Show highest price
+
+q → Quit
+
+Use only loops + function calls (no OOP).
+
+
+
+Submission Guidelines:-
+
+Don’t use AI
+Create ONE main folder.
+Example folder name: GenAI-Task(number)-YourName
+Inside this folder include:
+(All code files and Readme.md file must be inserted inside this folder)
+Convert the folder into ZIP format.
+Upload the ZIP folder on the submission portal.
+
+
+
+
+If you have any doubt, you can directly contact the Tutedude mentor.
+
+
+

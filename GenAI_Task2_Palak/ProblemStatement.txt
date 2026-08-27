@@ -1,0 +1,126 @@
+
+Assignment 2: Python - Control Flow (Conditionals & Loops)
+
+
+Problem Statement:
+
+You are a Junior Python Developer working on simple order processing utilities for a small e-
+
+commerce store. The focus for this assignment is control flow: if/elif/else statements and
+
+looping constructs (for, while) including break and continue.
+Keep solutions within the topic, do not introduce other advanced topics.
+
+
+
+Important: Stick to conditionals and loops. Avoid using functions, classes, file I/O, or external libraries for this assignment (unless noted as an optional extra).
+
+
+(Solve each task in a separate Python file or clearly labeled code cells)
+
+
+Restrictions:
+
+Avoid using functions, classes, external libraries, or file operations for this assignment.
+The goal is to practice control flow only.
+
+
+
+Task 1: Discount Rules (if / elif / else)
+
+1. Write a program that reads an integer order_amount from the user using input().
+
+2. Apply the following discount rules and print the final amount:
+
+o order_amount >= 2000 → 15% discount
+
+o 1500 <= order_amount < 2000 → 10% discount
+
+o 1000 <= order_amount < 1500 → 7% discount
+
+o otherwise → 0% discount
+
+3. Ensure you convert input to a number and handle the case when the input is non-
+
+numeric by displaying an error message and exiting the program.
+
+Extra (optional): Add tax (fixed 5%) after discount and print subtotal, tax, and final total (still
+
+within conditionals and basic arithmetic).
+
+
+Task 2: Process Multiple Orders (for loop)
+
+1. Given a list of order amounts: orders = [1200, 2500, 800, 1750, 3000], use a for loop
+
+to apply the discount rules from Task 1 to each order and print a summary table
+
+showing: order_amount -> discount% -> final_amount.
+
+2. Also compute and print the total revenue after discounts.
+
+Extra (optional): Print the number of orders that received a discount (discount > 0).
+
+
+
+
+
+
+
+Task 3: User Menu (while loop + break/continue)
+
+1. Implement a simple while-loop driven menu that keeps asking the user to choose an
+
+action until they press q to quit.
+
+Menu options:
+
+       1 — Add order amount to a running list (use input())
+
+       2 — Show all orders and totals after applying discounts
+      q — Quit
+
+2. Use continue to re-show the menu after invalid input and break to exit on q.
+
+Constraints: Keep the loop logic simple and use only lists and loops (no functions required).
+
+
+
+
+Task 5: Loop Control with Conditions (break & continue)
+
+1. Given a list of daily sales: daily = [200, 150, 0, 400, 50, -1, 300], iterate through it with
+
+a for loop and:
+
+o If a day's value is -1, treat it as corrupted data and break the loop (stop
+
+processing).
+
+o If a day's value is 0, treat it as a day with no sales and continue (skip adding to
+
+revenue).
+
+o For valid positive sales, add to total_sales and print the running total.
+
+2. Print the final total after the loop completes (or stops due to corrupted data).
+
+
+
+
+Submission Guidelines:-
+
+Don’t use AI
+Create ONE main folder.
+Example folder name: GenAI-Task(number)-YourName
+Inside this folder include:
+(All code files and Readme.md file must be inserted inside this folder)
+Convert the folder into ZIP format.
+Upload the ZIP folder on the submission portal.
+
+
+
+
+If you have any doubt, you can directly contact the Tutedude mentor.
+
+
