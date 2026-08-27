@@ -78,5 +78,8 @@ breaking the loop at input 'q' or 'Q
 converting price to float
 if price is negative raising custom exception
 User input will be taken for price of each item in the cart, unless items finishes or user quits
-
+Test Cases:
+Case 1: input q
+Case 2: input 10, 10, 10, 10, 10, q
+Case 3: input -10, 10, 10, 10, 10, 10, 10, 10
 
