@@ -1,7 +1,10 @@
 # Assignment 9: NumPy (Mathematical & Statistical Operations)
 
+All the code is in file Assignment9.ipynb
+You can execute the cells to check the output
 
 ## Task 1: Creating NumPy Arrays
+Cell 3 demonstrates the below code
 1. Import NumPy as np.
 2. Create the following arrays:
 o A 1D array of integers from 1 to 10
@@ -12,6 +15,7 @@ o Shape of each array
 o Data type of each array
 
 ## Task 2: Important Mathematical Operations
+Cell 5 demonstrates the below code
 Given two arrays:
 A = np.array([10, 20, 30, 40])
 B = np.array([1, 2, 3, 4])
@@ -24,6 +28,7 @@ Perform and print results for:
 Extra (optional): Use NumPy functions: np.add(), np.subtract() for the same operations.
 
 ## Task 3: Important NumPy Mathematical Formulas
+Cell 7 demonstrates the below code
 Given:
 values = np.array([2, 4, 6, 8, 10])
 Calculate:
@@ -35,6 +40,7 @@ Calculate:
 Use NumPy functions only.
 
 ## Task 4: Aggregation Operations
+Cell 9 demonstrates the below code
 Given a 2D array:
 data = np.array([
 [10, 20, 30],
@@ -49,6 +55,7 @@ Find:
 5. Overall mean
 
 ## Task 5: Statistical Operations (Core Focus)
+Cell 11 demonstrates the below code
 Given:
 marks = np.array([78, 85, 90, 66, 72, 88, 95, 60])
 Calculate and print:
@@ -60,6 +67,7 @@ Calculate and print:
 6. Range (max - min)
 
 ## Task 6: Percentiles & Sorting
+Cell 13 demonstrates the below code
 Using the same marks array:
 1. Sort the array
 2. Find:
@@ -69,6 +77,7 @@ o 75th percentile
 3. Count how many students scored above the average marks
 
 ## Task 7: Mini Use Case: Sales Analysis
+Cell 15 demonstrates the below code
 Given daily sales data:
 sales = np.array([1200, 1500, 900, 2000, 1800, 1700, 1600])
 Perform:
