@@ -15,6 +15,16 @@ app_discount.py
 app_product_form.py
 app_dashboard.py
 
+Code execution
+Create virtualenv using
+python -m virtualenv venv
+Activate virtual environment - get the parent directory of venv
+venv\scripts\activate
+Install Streamlit
+pip install streamlit
+Execute file using
+streamlit run <filename>.py
+
 ## Task 1: Basic Streamlit App (app_basic.py)
 Create a basic Streamlit app that:
 1. Displays a title: "Welcome to Streamlit!"
