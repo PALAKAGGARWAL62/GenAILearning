@@ -2,7 +2,6 @@
 
 Problem Statement
 You are working as a Data Analyst trainee. The analytics team wants you to visualize different types of data using Matplotlib. Your task is to create clear and correct plots for various real-world scenarios using Matplotlib’s core plotting functions.
-
 This assignment focuses ONLY on:
 
 Line Plot
