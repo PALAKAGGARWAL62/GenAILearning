@@ -1,5 +1,10 @@
 # Assignment 12: Seaborn (Relational, Distribution, Categorical & Multi-Plots)
 
+All code related to this assignment is in Assignment12.ipynb file
+How to Execute
+Data file Housing.csv must be there in the root folder
+Open notebook and execute the code cell by cell to check the output
+
 Dataset Requirement (Mandatory)
 
 1. Go to Kaggle and download any one dataset of your choice.
@@ -19,6 +24,14 @@ Restrictions:
 Use Seaborn + Pandas + Matplotlib only.
 Do NOT use Plotly or other visualization libraries.
 Focus on understanding plot purpose, not styling.
+
+## Types of plot
+1. Relational Plot
+2. Distribution Plot
+3. Categorical Plot
+4. Regression Plot
+5. Matrix Plot
+6. Multi Plot
 
 ## Task 1: Relational Plot
 1. Create a relational plot (relplot) using:
