@@ -1,0 +1,57 @@
+{
+    "Type1": [
+        [
+            "name",
+            "price",
+            "category"
+        ],
+        [
+            "Apple",
+            100,
+            "Fruit"
+        ],
+        [
+            "Mango",
+            200,
+            "Fruit"
+        ],
+        [
+            "Bread",
+            50,
+            "Bakery"
+        ],
+        [
+            "Butter",
+            80,
+            "Dairy"
+        ],
+        [
+            "Milk",
+            120,
+            "Dairy"
+        ]
+    ],
+    "Type2": {
+        "name": [
+            "Banana",
+            "Kiwi",
+            "Dates",
+            "Cream",
+            "Shampoo"
+        ],
+        "price": [
+            100,
+            300,
+            200,
+            500,
+            1000
+        ],
+        "category": [
+            "Fruit",
+            "Fruit",
+            "Fruit",
+            "Beauty",
+            "Beauty"
+        ]
+    }
+}

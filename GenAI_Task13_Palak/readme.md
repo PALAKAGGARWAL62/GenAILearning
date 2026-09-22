@@ -1,0 +1,122 @@
+# Assignment 13: Data Gathering, Preprocessing & EDA
+
+Problem Statement
+You are working as a Junior Machine Learning Engineer. Before building any ML model, your responsibility is to collect data from multiple sources, clean and preprocess it, and perform
+Exploratory Data Analysis (EDA) to understand patterns, issues, and insights in the data.
+
+This assignment focuses ONLY on pre-ML foundations:
+1. Data gathering from different sources
+2. Data preprocessing & cleaning
+3. Exploratory Data Analysis (EDA)
+
+⚠️ No model training in this assignment
+
+Restrictions:
+Use Pandas, NumPy, Matplotlib, Seaborn, Requests, SQLite only.
+No ML model training yet.
+Code clarity is important.
+
+## PART 1 — Data Gathering (Multiple Sources)
+
+### Task 1: Load Data from CSV
+1. Download any dataset from Kaggle (CSV format).
+2. Load it using Pandas.
+3. Print:
+o Shape of the dataset
+o Column names
+o First 5 rows
+o Other Preprocessing Techniques discussed in the lectures
+
+### Task 2: Load Data from JSON
+1. Create or download a small JSON file (example: product data, user data).
+2. Load it using Pandas.
+3. Convert it into a DataFrame.
+4. Print the DataFrame.
+
+### Task 3: Load Data from SQL Database
+1. Create a SQLite database (sample.db)
+2. Create a table named employees with columns:
+o id
+o name
+o department
+o salary
+3. Insert at least 5 records.
+4. Read the table into Pandas using SQL query.
+5. Display the DataFrame.
+
+### Task 4: API Mini Project (TMDB API)
+Mini Project: Movie Data Collector
+1. Create a free account on TMDB (The Movie Database)
+2. Generate an API key.
+3. Using Python (requests library):
+o Fetch popular movies data
+o Extract fields:
+Movie title
+Release date
+Rating
+Popularity
+Any Columns of Your Choice
+4. Convert the API response into a Pandas DataFrame.
+5. Save the collected data into a CSV file named tmdb_movies.csv.
+Extra (optional): Fetch data for top-rated movies as well.
+
+## PART 2 — Data Preprocessing & Cleaning (Kaggle Dataset)
+
+Use the same Kaggle dataset loaded in ### Task 1
+### Task 5: Understanding the Data
+1. Check dataset shape.
+2. Display column data types.
+3. Identify numerical and categorical columns.
+4. Check missing values count per column.
+5. Rest of The Known Techniques
+
+### Task 6: Data Cleaning
+Perform the following preprocessing steps:
+1. Handle missing values:
+o Numerical → mean or median
+o Categorical → mode or "Unknown"
+2. Remove duplicate rows (if any).
+3. Rename columns to lowercase and snake_case.
+4. Fix incorrect data types (example: string numbers to int/float) etc.,.
+
+### Task 7: Feature Preparation (Basic)
+1. Convert categorical columns into numerical using:
+o Label Encoding OR
+o One-Hot Encoding
+2. Separate features and target column (choose any relevant target).
+
+## PART 3 — Exploratory Data Analysis (EDA)
+
+### Task 8: Univariate Analysis
+1. Plot distribution of numerical columns (histogram + KDE).
+2. Count plot for categorical columns.
+3. Identify outliers using boxplots.
+4. Show Every Chart Possible being shown in matplotlib and Seaborn Lectures .
+
+### Task 9: Bivariate Analysis
+1. Numerical vs Numerical:
+o Scatter plot
+o Correlation heatmap
+2. Categorical vs Numerical:
+o Bar plot
+o Box plot
+o Show Every Chart Possible being shown in matplotlib and Seaborn Lectures for bivariate as well
+
+### Task 10: Insights & Observations
+Write at least 5 insights, such as:
+Patterns
+Outliers
+Relationships
+Data quality issues
+Write insights in markdown cells (if notebook) or comments.
+
+Submission Guidelines:-
+Don’t use AI
+Create ONE main folder.
+Example folder name: GenAI-### Task(number)-YourName
+Inside this folder include:
+(All code files and Readme.md file must be inserted inside this folder)
+Convert the folder into ZIP format.
+Upload the ZIP folder on the submission portal.
+
+If you have any doubt, you can directly contact the Tutedude mentor.
