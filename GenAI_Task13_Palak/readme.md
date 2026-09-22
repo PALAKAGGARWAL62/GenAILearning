@@ -62,7 +62,7 @@ Extra (optional): Fetch data for top-rated movies as well.
 
 ## PART 2 — Data Preprocessing & Cleaning (Kaggle Dataset)
 
-Use the same Kaggle dataset loaded in ### Task 1
+Use the same Kaggle dataset loaded in Task 1
 ### Task 5: Understanding the Data
 1. Check dataset shape.
 2. Display column data types.
